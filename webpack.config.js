@@ -48,9 +48,9 @@ const config = {
   devServer: {
     port: 8090,
     open: true,
-    // quiet: true,
+    quiet: true,
     inline: true,
-    // noInfo: true,
+    noInfo: true,
     overlay: true,
     publicPath: '/',
     contentBase: './dist',

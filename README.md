@@ -26,12 +26,16 @@ ReactDOM.render(
 
 ##### 参数, 返回
 
-参数 | 类型 | 默认值
----|--- | --- 
-defaultCity | String | 北京
-defaultProvince  | String | 北京
-defaultDistrict  | String | 市辖区
-handleSelectDistrict | func({defaultCity, defaultDistrict, defaultProvince }) => void | 
+参数 | 类型 | 默认值 | 是否必须
+---|--- | --- | ---
+defaultCity | String | 北京 | 否
+defaultProvince  | String | 北京 | 否
+defaultDistrict  | String | 市辖区 | 否
+handleSelectDistrict | func({defaultCity, defaultDistrict, defaultProvince }) => void | 是
 
+- 查看 example
+```js
+yarn server or npm run server
+```
 - 注意点
  因为ui组件是基于antd, 所以必须安装antd
